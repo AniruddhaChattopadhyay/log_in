@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title> Home </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Nosifer|UnifrakturCook:700" rel="stylesheet">
+	<style type="text/css">
+		body{
+				background-image:url(home.jpg);
+				background-position:center;
+				height:100%;
+				margin: 0;
+			}
+		h1{
+			color:red;
+			font-size:80px;
+			font-family:'Nosifer',cursive;
+			}
+		h2{
+			padding-left:20px;
+			color:magenta;}
+		#u_name,#u_name_f{
+			padding-left:20px;}
+		#p_word,#p_word_f{
+			padding-left:20px;}
+		#submit{
+			padding-left:20px;}
+		.sign_up{
+			color:blue;
+			font-size:20px;
+			}
+		.sign_up a{
+			color:red;}
+		.sign_up a:hover{
+			background-color:blue;
+			color:white;
+			font-size:25px;
+			}
+	</style>
+</head>
+<body>
+	<h1 align="center">WELCOME</h1>
+	<form action="dosomethingbro" method="post">
+		<h2>Enter your user-name and password please!</h2>
+		<span id="u_name" style="font-size:25px; color:white;">username:</span><br/><span id="u_name_f"><input type="text" name="username" style="padding:6px" /></span><br/>
+		<span id="p_word" style="font-size:25px; color:white;">password:</span><br/><span id="p_word_f"><input type="password" name="pword" maxlength=16 style="padding:6px"/></span><br/><br/>
+		<span id="submit"><button type="submit" style="padding:10px"><a href="logged_in.html">login</a></button></span>
+	</form>
+	<p class="sign_up"> New to this page? Haven't signed up yet?<a href="signup.html"> Click Here </a></p>
+</body>
+</html>

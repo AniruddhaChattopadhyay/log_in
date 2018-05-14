@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>signup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body{
+				background-image:url(signup.jpg);
+				background-position:center;
+				height:100%;
+				margin: 0;
+			}
+		.f{
+			color:white;
+			font-size:25px;
+			}
+		h1{
+			font-size:50px;
+			color:red;
+			}
+		a{
+			color:red;
+			}
+		</style>
+</head>
+<body>
+	<h1 align="center"> SIGNUP PAGE </h1>
+	<form class="f">
+		<span>First Name<span style="color:red">*</span>:</span><br><input type="text" name="F_name" size="30"/><br>
+		<span>Last Name<span style="color:red">*</span>:</span><br><input type="text" name="L_name" size="30"/><br>
+		<span>Password<span style="color:red">*</span>:</span><br><input type="password" name="p-word" maxlength="20"/><br>
+		<span>Confirm Password<span style="color:red">*</span>:</span><br><input type="password" name="confi_p-word" maxlength="20"/><br>
+		<span>Gender<span style="color:red">*</span>:</span><br>
+		<span>Male:</span> <input type="radio" name="sex" value="male"/><br>
+		<span>Female:</span> <input type="radio" name="sex" value="female"/><br>
+		<span>Other:</span> <input type="radio" name="sex" value="female"/><br>
+		<span>Birthday<span style="color:red">*</span>:<span style="color:green;font-size:20px;font-weight:bold;"> Enter date of birth between 31st december 1965 to 31st december 2017</span></span></br>
+		<input type="date" name="bday" min="1965-12-31" max="2017-12-31"><br>
+		<span style="font-size:25px">E-mail<span style="color:red">*</span>:</span>
+		<input type="email" name="email"><br>
+		<span style="font-size:25px">Contact Number<span style="color:red">*</span>:</span>
+		<input type="tel" name="Number" maxlength="10"><br>
+		<span style="padding:10px"><button type="submit" style="padding:10"><a href="signed_up.html">submit</a></button></span>
+	</form>	
+</body>
+</html>
